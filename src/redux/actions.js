@@ -1,0 +1,10 @@
+// The types of actions that you can dispatch to modify the state of the store
+export const types = {
+    LOADLIST: "LOADLIST",
+    FILTER: "FILTER",
+    SETFILTERSTRING: "SETFILTERSTRING",
+    LOADDETAILS: "LOADDETAILS",
+    SEARCHTRENDS: "SEARCHTRENDS",
+    SEARCHRELATEDQUERIES: "SEARCHRELATEDQUERIES",
+    SETANALYTICSSTRING: "SETANALYTICSSTRING"
+};

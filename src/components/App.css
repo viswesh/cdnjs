@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  padding: 0px 10px;
+}
+
+nav a:hover {
+  background-color:#f0db4f;
+}
+
+a.active {
+  background-color: #fff;
+  color: #444;
+}
+
+.svgMuted {
+  opacity: 0.2
+}
